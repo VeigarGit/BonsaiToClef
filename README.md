@@ -121,6 +121,13 @@ O avaliador também passou por verificações com métricas analíticas conhecid
 falhas de execução e recusa de distribuições inválidas, IDs duplicados e
 execuções incompletas.
 
+## DecisionLFM
+
+A pasta [DecisionLFM](DecisionLFM/README.md) contém nosso modelo de decisão
+baseado no LFM3-VL-2B, com treino de cabeça + LoRA, salvamento e inferência.
+Seu README explica a execução e a comparação usando este mesmo avaliador.
+O código e o ambiente do baseline CLEF permanecem independentes.
+
 ## Referências
 
 - [CLEF-Flash e implementação oficial](https://huggingface.co/Cloudflare/clef-flash)
